@@ -11,15 +11,11 @@ export default function App() {
           <span className="text-[15px] font-bold tracking-tight">disrupting.com</span>
         </div>
         <span className="text-xs font-medium uppercase tracking-[0.16em] text-muted-foreground">
-          Domain Portfolio
+          VIP
         </span>
       </header>
 
       <main className="relative z-10 flex flex-1 flex-col items-center justify-center gap-10 px-6 py-16 text-center sm:gap-12 sm:px-8">
-        <p className="text-xs font-medium uppercase tracking-[0.25em] text-muted-foreground">
-          Premium Domain Portfolio
-        </p>
-
         <div className="flex flex-col items-center gap-4 sm:gap-6">
           <MagneticText text="DISRUPTING" hoverText="PREMIUM" />
           <MagneticText text="DOMAINS" hoverText="FOR SALE" />
