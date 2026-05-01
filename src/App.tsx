@@ -22,7 +22,7 @@ export default function App() {
         </div>
 
         <p className="max-w-xl text-base leading-relaxed text-muted-foreground sm:text-lg">
-          Specialized premium domains for sale for your business, idea, or dream.
+          Premium domains for sale for your business, idea, or dream.
         </p>
 
         <a
