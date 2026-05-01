@@ -34,8 +34,12 @@ export default function App() {
         </a>
       </main>
 
-      <footer className="relative z-10 flex flex-col items-start justify-between gap-2 border-t border-border px-6 py-7 text-sm text-muted-foreground sm:flex-row sm:items-center sm:px-10">
+      <footer className="relative z-10 flex flex-col items-start justify-between gap-3 border-t border-border px-6 py-7 text-sm text-muted-foreground sm:flex-row sm:items-center sm:px-10">
         <span>© 2026 disrupting.com</span>
+        <span className="inline-flex items-center gap-2 text-[11px] font-medium uppercase tracking-[0.18em]">
+          <span className="h-1.5 w-1.5 rounded-full bg-foreground" aria-hidden="true" />
+          Over $10M in premium domains sold
+        </span>
         <a
           href="mailto:contact@disrupting.com"
           className="font-medium text-foreground transition-opacity hover:opacity-60"
