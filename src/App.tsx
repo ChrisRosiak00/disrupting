@@ -1,0 +1,52 @@
+import { MagneticText } from "@/components/ui/morphing-cursor"
+
+export default function App() {
+  return (
+    <div className="relative flex min-h-screen flex-col bg-background text-foreground">
+      <div className="grid-bg" aria-hidden="true" />
+
+      <header className="relative z-10 flex items-center justify-between px-6 py-7 sm:px-10">
+        <div className="flex items-center gap-2.5">
+          <span className="h-2 w-2 rounded-full bg-foreground" />
+          <span className="text-[15px] font-bold tracking-tight">disrupting.com</span>
+        </div>
+        <span className="text-xs font-medium uppercase tracking-[0.16em] text-muted-foreground">
+          Domain Portfolio
+        </span>
+      </header>
+
+      <main className="relative z-10 flex flex-1 flex-col items-center justify-center gap-10 px-6 py-16 text-center sm:gap-12 sm:px-8">
+        <p className="text-xs font-medium uppercase tracking-[0.25em] text-muted-foreground">
+          Premium Domain Portfolio
+        </p>
+
+        <div className="flex flex-col items-center gap-4 sm:gap-6">
+          <MagneticText text="DISRUPTING" hoverText="PREMIUM" />
+          <MagneticText text="DOMAINS" hoverText="FOR SALE" />
+        </div>
+
+        <p className="max-w-xl text-base leading-relaxed text-muted-foreground sm:text-lg">
+          Specialized premium domains for sale for your business, idea, or dream.
+        </p>
+
+        <a
+          href="mailto:contact@disrupting.com"
+          className="inline-flex items-center gap-2.5 rounded-full bg-foreground px-6 py-3.5 text-[15px] font-medium text-background transition hover:-translate-y-px hover:opacity-90"
+        >
+          <span>contact@disrupting.com</span>
+          <span aria-hidden="true">→</span>
+        </a>
+      </main>
+
+      <footer className="relative z-10 flex flex-col items-start justify-between gap-2 border-t border-border px-6 py-7 text-sm text-muted-foreground sm:flex-row sm:items-center sm:px-10">
+        <span>© 2026 disrupting.com</span>
+        <a
+          href="mailto:contact@disrupting.com"
+          className="font-medium text-foreground transition-opacity hover:opacity-60"
+        >
+          contact@disrupting.com
+        </a>
+      </footer>
+    </div>
+  )
+}
