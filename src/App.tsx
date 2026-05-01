@@ -27,10 +27,10 @@ export default function App() {
 
         <a
           href="mailto:contact@disrupting.com"
-          className="inline-flex items-center gap-2.5 rounded-full bg-foreground px-6 py-3.5 text-[15px] font-medium text-background transition hover:-translate-y-px hover:opacity-90"
+          className="group inline-flex items-center gap-2.5 text-[15px] font-medium text-foreground transition-opacity hover:opacity-60"
         >
           <span>contact@disrupting.com</span>
-          <span aria-hidden="true">→</span>
+          <span aria-hidden="true" className="transition-transform group-hover:translate-x-0.5">→</span>
         </a>
       </main>
 
