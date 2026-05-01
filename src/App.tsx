@@ -7,10 +7,7 @@ export default function App() {
 
       <header className="relative z-10 flex items-center justify-between px-6 py-7 sm:px-10">
         <div className="flex items-center">
-          <span className="text-[15px] tracking-tight">
-            <span className="font-normal">disrupting</span>
-            <span className="font-black">.com</span>
-          </span>
+          <span className="text-[15px] font-bold tracking-tight">disrupting.com</span>
         </div>
         <span className="text-xs font-medium uppercase tracking-[0.16em] text-muted-foreground">
           VIP
