@@ -6,8 +6,7 @@ export default function App() {
       <div className="grid-bg" aria-hidden="true" />
 
       <header className="relative z-10 flex items-center justify-between px-6 py-7 sm:px-10">
-        <div className="flex items-center gap-2.5">
-          <span className="h-2 w-2 rounded-full bg-foreground" />
+        <div className="flex items-center">
           <span className="text-[15px] font-bold tracking-tight">disrupting.com</span>
         </div>
         <span className="text-xs font-medium uppercase tracking-[0.16em] text-muted-foreground">
